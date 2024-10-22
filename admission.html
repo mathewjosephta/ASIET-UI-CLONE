@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="admission.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Admission 2024</title>
+  </head>
+  <body>
+    
+    <header style="height: 72px;display: flex;">
+      <div class="icon-bar">
+            <a href="" target="_blank" class="phone"><i class="fa fa-phone" ></i></a> 
+            <a href="" target="_blank" class="mail"><i class="fa fa-envelope"></i></a> 
+            <a href="#" class="whatsapp"><i class="fa fa-whatsapp"></i></a> 
+      </div>
+      <div class="logo">
+        <a href="index.html" alt="">
+          <img
+            src="https://www.admissions.adishankara.ac.in/assets/images/logo.svg"
+            alt=""
+            style="
+              width: 250px;
+              height: 40px;
+              margin-left: 135px;
+              margin-top: 15px;
+            "
+          />
+        </a>
+      </div>
+      <div class="contact-details" style="margin-left: 500px;text-align: center;margin-top: 15px;">
+        <button style="color: black;background-color: white;">College code : ASI</button>
+        <button style="background-color: #060041;">Apply Now</button>
+      </div>
+    </header>
+    <section id="admission">
+      <div class="left">
+        <p class="main-title">Admission 2024</p>
+        <p class="sub-title">ASIET : The college of Choice</p>
+      </div>
+
+      <div class="registration">
+        <div class="main-heading"><p>Enquire Now</p></div>
+        <div class="sub-heading"><p>Complete the form</p></div>
+        <form action="action.php" method="post">
+          <div class="name box"style="margin-top: -30px;margin-left: -50px;">
+            <input type="text" placeholder="Name" name="Name" />
+          </div>
+          <div class="email box">
+            <input type="email" placeholder="Email" name="Email" />
+          </div>
+          <div class="mobile-number box">
+            <input type="tel" placeholder="Mobile Phone" />
+          </div>
+          <div class="inputState box">
+            <select class="form-control" id="inputState">
+              <option value="SelectState">Select State</option>
+              <option value="Andra Pradesh">Andra Pradesh</option>
+              <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+              <option value="Assam">Assam</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Chhattisgarh">Chhattisgarh</option>
+              <option value="Goa">Goa</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Himachal Pradesh">Himachal Pradesh</option>
+              <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+              <option value="Jharkhand">Jharkhand</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Madya Pradesh">Madya Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Manipur">Manipur</option>
+              <option value="Meghalaya">Meghalaya</option>
+              <option value="Mizoram">Mizoram</option>
+              <option value="Nagaland">Nagaland</option>
+              <option value="Orissa">Orissa</option>
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Sikkim">Sikkim</option>
+              <option value="Tamil Nadu">Tamil Nadu</option>
+              <option value="Telangana">Telangana</option>
+              <option value="Tripura">Tripura</option>
+              <option value="Uttaranchal">Uttaranchal</option>
+              <option value="Uttar Pradesh">Uttar Pradesh</option>
+              <option value="West Bengal">West Bengal</option>
+              <option disabled style="background-color: #aaa; color: #fff">
+                UNION Territories
+              </option>
+              <option value="Andaman and Nicobar Islands">
+                Andaman and Nicobar Islands
+              </option>
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="Dadar and Nagar Haveli">
+                Dadar and Nagar Haveli
+              </option>
+              <option value="Daman and Diu">Daman and Diu</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Lakshadeep">Lakshadeep</option>
+              <option value="Pondicherry">Pondicherry</option>
+            </select>
+          </div>
+
+          <div class="course box">
+            <select name="course" id="Course">
+              <option value="default" selected disabled>Select course</option>
+              <option value="Btech">Btech</option>
+              <option value="Mtech">Mtech</option>
+            </select>
+          </div>
+          <div class="programme box">
+            <select name="programme" id="programme">
+                <option value="default" selected disabled >Select programme</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Computer science AI">Computer science AI</option>
+                <option value="Computer science DS">Computer science DS</option>
+                <option value="Computer science DS">ELECTRONICS & BIOMEDICAL ENGINEERING</option>
+                <option value="Computer science DS">ELECTRICAL & ELECTRONICS ENGINEERING</option>
+                <option value="Computer science DS">ELECTRONICS & COMMUNICATION ENGINEERING</option>
+                <option value="Computer science DS">MECHANICAL ENGINEERING</option>
+                <option value="Computer science DS">CIVIL ENGINEERING</option>
+            </select>
+          </div>
+          <div class="terms">
+            <input type="checkbox" id="terms" name="terms" />
+            <label for="t&c">
+              I agree to receive information regarding my submitted
+              enquiry</label
+            >
+          </div>
+          <button class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.icon-bar {
+    right:0%;
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateY(-50%);
+}
+  
+.icon-bar a {
+    display: block;
+    margin-bottom: 4px;
+    margin-right: 15px;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 13px;
+}
+
+  
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.phone {
+    margin-top: 100px;
+    background: #f77e0b;
+    background-size: 10px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.phone i{
+    font-size: 20px;
+}
+
+.mail{
+    margin-top: 10px;
+    background: #48448a;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.mail i{
+    font-size: 20px;
+}
+
+.whatsapp{
+    margin-top: 10px;
+    background: none;
+    border-radius: 50%;
+}
+
+.whatsapp i{
+    font-size: 40px;
+    color: #4CAF50;
+}
+
+.contact-details{
+    margin-left: 350px;
+}
+
+.contact-details button{
+    height: 42px;
+    width: 165px;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 0.3px solid gray;
+}
+
+#admission{
+    background-image: url(./images/admission-hero.png);
+    background-size:cover;
+    display: flex;
+    width: 100%;
+    height: 700px;
+}
+
+.registration{
+    background-color:rgba(0, 0, 0, 0.445);
+    color: #fff;
+    width: 390px;
+    height: 630px;
+    margin-left: 18%;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+::placeholder { 
+        
+    color: #fff; 
+    opacity: 1;
+} 
+  
+:-ms-input-placeholder { 
+    
+    color: #fff;
+    opacity: 1;
+} 
+
+.main-title{
+    color: #fff;
+    font-size: 30px;
+    padding-top: 300px;
+    padding-left: 100px;
+}
+
+.sub-title{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-left: 100px;
+}
+
+.main-heading{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.sub-heading{
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.box input,select{
+    width: 316px;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-left: 30px;
+    padding-left: 15px;
+    background-color:rgba(0, 0, 0, 0.397) ;
+    color: #fff;
+    border: 1px solid #fff;
+    font-family: "Noto Serif", sans-serif;
+}
+
+.box input:focus{
+    background-color:rgba(56, 55, 55, 0.6) ;
+}
+
+.box select:focus{
+    background-color:rgba(56, 55, 55, 0.6) ;
+}
+
+.terms{
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.terms input{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.submit-btn{
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 42px;
+    width: 162px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 8px;
+    min-width: 140px;
+    height: 42px;
+    box-shadow: none;
+    font-family: "Noto Serif", sans-serif;
+    outline: none;
+    border: none;
+    width: fit-content;
+    color: #060041;
+}
